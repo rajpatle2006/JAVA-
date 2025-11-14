@@ -1,9 +1,9 @@
 package Lec8;
-//import java.util.*;
+import java.util.*;
 //multilevel inheritance 
 class Animal{       //parentclass
-    void Eat(){
-        System.out.println("burger");
+    void eat(){
+        System.out.println("pizza");
     }
 }
 class Doges extends Animal{    //childclass
@@ -13,17 +13,20 @@ class Doges extends Animal{    //childclass
 }   
 class puppy extends Doges {      //subdrivedclass
     void run(){
-        System.out.println("hehehe");
+        System.out.println  ("bhago");
     }
     
 } 
 public class multilevelinheritance {
     public static void main(String[] args) {
      puppy obj= new puppy();
+     obj.eat();
         obj.bark();
-        obj.Eat();
         obj.run();
+        
     }
     
 }
+
+
 
