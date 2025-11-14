@@ -1,4 +1,4 @@
-public class Oddeven {
+public class oddeven {
      public static void main(String[]args){
        int a=7;
        if(a%2==0){
