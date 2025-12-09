@@ -4,8 +4,8 @@ import java.nio.channels.Pipe.SourceChannel;
 import java.util.*;
 public class Myiterator4 {
     public static void main(String[] args) {
-         ArrayList<Integer> list=new ArrayList<>();
-        list.add(5);
+        ArrayList<Integer> list=new ArrayList<>();
+        list.add(5 );
         list.add(6);
         list.add(7);
         list.add(8);
