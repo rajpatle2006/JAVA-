@@ -12,6 +12,7 @@ public class New {
         list.add(8);
         list.add(9);
         list.add(10);
+        int t=8;
         ListIterator<Integer> it=list.listIterator();
         while (it.hasNext()) {
             Integer a= it.next();
@@ -27,6 +28,6 @@ public class New {
             }
 
         }
-        System.out.println();
+        System.out.println("final list: " + list);
     }
 }

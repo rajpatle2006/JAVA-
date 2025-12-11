@@ -1,3 +1,4 @@
+package lec18;
 
 
 class MyThread extends Thread {
@@ -12,7 +13,7 @@ class MyThread extends Thread {
        
     }
 }
-public class Downloading{
+public class downloading1{
     public static void main(String[] args) {
         System.out.println(Thread.currentThread().getName());
         MyThread obj=new MyThread();
