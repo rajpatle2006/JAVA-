@@ -25,6 +25,5 @@ public class Multithreading{
            System.out.println(i + "  raj ");
         }
 
-    }
-    
+    } 
 }

@@ -13,13 +13,15 @@ public class filterthelist {
         List<Integer> res=  list.stream().filter(n->n>60).toList();
         List<Integer> mapRes=  list.stream().map(n->n*2).toList();
         int data=  list.stream().reduce(0,(a,b)->a+b);
-       // System.out.println(data);
-       System.out.println(mapRes);
+        //  System.out.println(res);
+       System.out.println(data);
+       //System.out.println(mapRes);
+      
 
 
         
         
-        
+         
         
     
     }
